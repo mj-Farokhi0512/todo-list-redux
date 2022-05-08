@@ -1,0 +1,28 @@
+.todo-list {
+  padding: 20px;
+  user-select: none;
+}
+
+.todo-list h2 {
+  margin-bottom: 30px;
+}
+
+.todo-list ul {
+  width: 90%;
+  max-height: 300px;
+  overflow: auto;
+  padding: 0;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.todo-list > button {
+  box-sizing: border-box;
+  width: 42.5%;
+  margin: 0 2.5%;
+  color: white;
+  background-color: #fd4d4d;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}

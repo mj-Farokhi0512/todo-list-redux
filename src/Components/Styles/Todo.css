@@ -1,0 +1,31 @@
+.todo {
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  padding: 5px 0;
+  border-radius: 5px;
+  text-align: left;
+  margin: 10px 0;
+}
+
+.content {
+  display: inline-block;
+  width: 70%;
+  overflow: auto;
+  padding-left: 10px;
+  vertical-align: middle;
+}
+
+.check {
+  display: inline-block;
+  margin: 20px;
+  margin-left: 30px;
+}
+
+.todo button {
+  border: none;
+  border-radius: 5px;
+  background-color: #fd4d4d;
+  color: white;
+  padding: 5px;
+  vertical-align: middle;
+}

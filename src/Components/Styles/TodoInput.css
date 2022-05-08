@@ -1,0 +1,25 @@
+.todo-input {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  user-select: none;
+}
+
+.todo-input input {
+  width: 90%;
+  padding: 15px 10px;
+  margin: 20px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #aaa inset;
+  box-sizing: border-box;
+}
+
+.todo-input button {
+  width: 90%;
+  padding: 10px 0;
+  box-sizing: border-box;
+  color: white;
+  background-color: rgb(66, 110, 252);
+  border: none;
+  border-radius: 5px;
+}
